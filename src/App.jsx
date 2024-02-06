@@ -1,12 +1,14 @@
+
+import Navbar from './components/Navbar'
 import './App.scss'
 
 function App() {
 
 
   return (
-    <>
-      <p className='app'>hola</p>
-    </>
+    <div className="app">
+      <Navbar />
+    </div>
   )
 }
 
