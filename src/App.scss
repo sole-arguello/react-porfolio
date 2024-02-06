@@ -1,8 +1,9 @@
-@import './SCSS/custom';
+@import './SCSS/custom.scss';
 
 
-.app{
+.app {
+    font-family: map-get($tipography, font-1);
     background: map-get($colors, color-bg);
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
