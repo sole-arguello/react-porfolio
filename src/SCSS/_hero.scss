@@ -1,0 +1,128 @@
+.app {
+
+    .container__hero {
+        background: map-get($colors, color-bg);
+        margin-top: 5%;
+        .content__hero--container{
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            top: 70px;
+            z-index: 1;
+            margin: 0 10%;
+            .content__hero{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                color: map-get( $colors , color-text );
+                
+                .content__hero--title{
+                    font-size: 42px;
+                    font-weight: 900;
+                    margin-bottom: 33px;
+                    font-family: map-get($map: $tipography, $key: font-Roboto );
+                    background: linear-gradient(90deg,
+                     rgb(255, 255, 255, 1) 70%,
+                     rgba(255, 255, 255, 0) 120%);
+                    -webkit-text-fill-color: transparent;
+                    -webkit-background-clip: text;
+                }
+    
+                .content__hero--description{
+                    width: 95%;
+                    font-size: 30px;
+                    font-family: map-get($map: $tipography, $key: font-Roboto);
+                    margin-bottom: 52px;
+                }
+    
+                .content__hero--btnContact{
+                    text-decoration: none;
+                    background-color: map-get($map: $colors, $key: color-primary);
+                    color: map-get($map: $colors, $key: color-text);
+                    border-radius: 100px;
+                    font-size: 30px;
+                    font-weight: 600;
+                    padding: 17px 26px;
+                    box-shadow: 0 0 40px 0 rgba(99, 98, 98, 0.25);
+                }
+            }
+    
+            .image__hero{
+                width: 500px;
+                height: 320px;
+                border-radius: 100%;
+                z-index: 1;
+                animation-name: floating;
+                animation-duration: 3s;
+                animation-iteration-count: infinite;
+                animation-timing-function: ease-in-out;
+    
+            }
+    
+            .topBlur__hero{ 
+                position: absolute;
+                width: 50vw;
+                height: 50vw;
+                min-width: 350px;
+                min-width: 350px;
+                top: -398px;
+                left: -1vw;
+                border-radius: 764px;
+                background: rgba(25, 55, 109, 0.7);
+                filter: blur(100px);
+                z-index: 0;
+    
+            }
+    
+            .bottomBlur__hero{
+                position: absolute;
+                width: 70vw;
+                height: 50vw;
+                min-width: 350px;
+                min-width: 250px;
+                top: 200px;
+                right: -1vw;
+                border-radius: 764px;
+                background: rgba(25, 55, 109, 0.7);
+                filter: blur(100px);
+                z-index: 0;
+            }
+        }
+    }
+}
+
+@keyframes floating{
+    0% {
+        transform: translate(0, 0px);
+    }
+    50% {
+        transform: translate(0, 10px);
+    }
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .app{
+
+        .container__hero {
+            
+            .content__hero--container {
+                flex-direction: column-reverse;
+                padding-bottom: 30%;
+                .content__hero{
+                    align-items: center;
+                }
+    
+                .image__hero{
+                    width: 200px;
+                    height: 180px;
+                    border-radius: 100%;
+                    margin-bottom: 10%;
+                }
+            }
+        }
+    }
+}
