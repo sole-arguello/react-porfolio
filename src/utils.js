@@ -1,3 +1,6 @@
 export const getImageUrl = (path) => {
-    return new URL(`/public/assets/${path}`, import.meta.url).href
-}
+    // `import.meta.url` proporciona la URL del módulo actual
+    const currentModuleUrl = new URL(import.meta.url);
+    // `new URL(path, currentModuleUrl)` crea una URL relativa al directorio actual
+    return new URL(path, currentModuleUrl).href;
+  }
