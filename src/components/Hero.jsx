@@ -15,7 +15,7 @@ export default function Hero() {
                 <a className="content__hero--btnContact" href="mailto:soledad.arguello.trabajo@gmail.com">Contactame</a>
             </div>
             
-            <img className="image__hero" src={getImageUrl('./public/assets/about/yo.jpeg')} alt="mi imagen" />
+            <img className="image__hero" src={getImageUrl('../public/assets/about/yo.jpeg')} alt="mi imagen" />
             <div className="topBlur__hero"/>
             <div className="bottomBlur__hero"/>
         </div>
