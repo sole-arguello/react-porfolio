@@ -14,8 +14,8 @@ export default function Hero() {
                 </div>
                 <a className="content__hero--btnContact" href="mailto:soledad.arguello.trabajo@gmail.com">Contactame</a>
             </div>
-            
-            <img className="image__hero" src={getImageUrl('/assets/about/yo.jpeg')} alt="mi imagen" />
+            <img className="image__hero" src='/public/assets/about/hero.jpeg' alt="mi imagen" />
+            {/* <img className="image__hero" src={getImageUrl('/assets/about/yo.jpeg')} alt="mi imagen" /> */}
             <div className="topBlur__hero"/>
             <div className="bottomBlur__hero"/>
         </div>
