@@ -1,0 +1,142 @@
+.app {
+
+    .aboutme__container{
+
+        color: map-get($map: $colors, $key: color-text );
+        position: relative;
+        background-color: rgba(12, 12, 12, 0.6);
+        border-radius:  15px;
+        padding: 73px;
+        margin-top: 129px;
+        z-index: 1;
+        margin: 10%;
+
+        .aboutme__content--titleImg{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            .aboutme__content--title{
+                font-size: 35px;
+                font-weight: 700;
+                letter-spacing: 1.75px;
+                text-transform: uppercase;
+
+            }
+            .aboutme__content--img{
+                display: none;
+            }
+        }
+
+
+        .aboutme__content--info{
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            .aboutme__content--info-img{
+                width: 80%;
+            }
+            .aboutme__content--info-list{
+                
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                .aboutme__content--info-list_item{
+
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    border-radius: 20px;
+                    list-style: none;
+                    padding: 25px;
+                    background-image: linear-gradient(
+                        90deg, 
+                        rgba(165, 215, 232, 0.42) 0%,
+                        rgba(255, 255, 255, 0) 100%
+                    );
+                    background-size: 0 100%;
+                    background-repeat: no-repeat;
+                    transition: .5s;
+
+                    .aboutme__content--info-icons{ }
+                    .iconsFront{ 
+                        margin-right: 5%;
+                        font-size: 45px;
+                        color: rgb(124, 185, 235);
+                    }
+                    .iconsBack{
+                        margin-right: 5%;
+                        font-size: 100px;
+                        color: rgb(124, 185, 235);
+                    }
+                    .aboutme__content--info-text{
+                        font-size: 25px;
+                        .aboutme__content--info-text_title{
+                            margin-bottom: 2%;
+                            font-weight: 600;
+                        }
+                        .aboutme__content--info-text_description{}
+                    }
+                }
+
+                .aboutme__content--info-list_item:hover {
+
+                    background-size: 100% 100%;
+
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .app {
+
+        .aboutme__container{
+    
+             background-color: transparent;
+             padding: 73px 0;
+    
+            .aboutme__content--titleImg{
+                
+                .aboutme__content--img{
+                    display: flex;
+                    width: 20%;
+                }
+            }
+            .aboutme__content--info{
+    
+                flex-direction: column;
+    
+                .aboutme__content--info-img{
+                    display: none;
+                }
+                .aboutme__content--info-list{//ul
+                    
+                    margin-top: 29px;
+    
+                    .aboutme__content--info-list_item{//li
+                        
+                        margin-left: 0;
+                        margin-right: 0;
+    
+                        .aboutme__content--info-icons{}
+
+                        .iconsFront{}
+                        .iconsBack{}
+
+                        .aboutme__content--info-text {
+                            .aboutme__content--info-text_title{}
+                            .aboutme__content--info-text_description{ }
+                        }
+                    }
+    
+                    .aboutme__content--info-list_item:hover {}
+                }
+            }
+        }
+    }
+    
+}
