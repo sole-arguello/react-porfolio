@@ -24,7 +24,7 @@ export default function Navbar() {
             </div>
           
             <ul className={`navbar__menu--items ${menuOpen ? 'open' : ''}`}  >
-                <li className='navbar__menu--item-list'><a className='navbar__menu--item-list_link' href="#abaout">About</a></li>
+                <li className='navbar__menu--item-list'><a className='navbar__menu--item-list_link' href="#about">About</a></li>
                 <li className='navbar__menu--item-list'><a className='navbar__menu--item-list_link' href="#experience">Experience</a></li>
                 <li className='navbar__menu--item-list'><a className='navbar__menu--item-list_link' href="#projects">Projects</a></li>
                 <li className='navbar__menu--item-list'><a className='navbar__menu--item-list_link' href="#contact">Contact</a></li>
