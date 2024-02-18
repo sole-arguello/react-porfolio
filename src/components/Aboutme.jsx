@@ -2,15 +2,15 @@ import { FaArrowPointer, FaDesktop, FaMobileScreenButton } from "react-icons/fa6
 import { FaServer } from "react-icons/fa";
 export default function Aboutme() {
   return (
-    <section className="aboutme__container">
+    <section className="aboutme__container" id='about'>
       
       <div className="aboutme__content--titleImg">
         <h2 className="aboutme__content--title"> Sobre mi </h2>
-        <img className="aboutme__content--img" src="/public/assets/about/aboutme.png" alt="" />
+        <img className="aboutme__content--img" src="/assets/about/aboutme.png" alt="" />
       </div>
 
       <div className="aboutme__content--info">
-        <img className="aboutme__content--info-img" src="/public/assets/about/about.png" alt="imagen se mi" />
+        <img className="aboutme__content--info-img" src="/assets/about/about.png" alt="imagen se mi" />
         
         <ul className="aboutme__content--info-list">
 
