@@ -1,0 +1,27 @@
+[
+    {
+        "title": "HTML",
+        "imageSrc": "assets/skils/html.png"
+    },
+    {
+        "title": "CSS",
+        "imageSrc": "assets/skils/css.png"
+    },
+    {
+        "title": "JavaScript",
+        "imageSrc": "assets/skils/javascript.png"
+    },
+    {
+        "title": "React",
+        "imageSrc": "assets/skils/react.png"
+    },
+    {
+        "title": "Node-Express",
+        "imageSrc": "assets/skils/node.png"
+    },
+    {
+        "title": "MongoDB ",
+        "imageSrc": "assets/skils/mongo.png"
+    }
+
+]

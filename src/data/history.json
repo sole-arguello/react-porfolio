@@ -1,0 +1,26 @@
+[
+    {
+        "role": "Frontend Developer",
+        "company": "Company SoleDad",
+        "startDate": "Sept, 2021",
+        "endDate": "Present",
+        "experences": [" una cosa", "otra cosa ", "y otra mas"],
+        "imageSrc": "assets/about/aboutme.png"
+    },
+    {
+        "role": "Frontend Developer",
+        "company": "Company SoleDad",
+        "startDate": "Sept, 2021",
+        "endDate": "Present",
+        "experences": [" una cosa", "otra cosa ", "y otra mas"],
+        "imageSrc": "assets/about/aboutme.png"
+    },
+    {
+        "role": "Frontend Developer",
+        "company": "Company SoleDad",
+        "startDate": "Sept, 2021",
+        "endDate": "Present",
+        "experences": [" una cosa", "otra cosa ", "y otra mas"],
+        "imageSrc": "assets/about/aboutme.png"
+    }
+]
