@@ -1,0 +1,26 @@
+[
+    {
+        "title": "SoleDad 1",
+        "imageSrc": "assets/projects/projects.jpg",
+        "description": "SoleDad es una landing page para una pequeña tienda de ropa.",
+        "skills": ["HTML", "CSS", "JavaScript"],
+        "demo": "https://example.com/",
+        "source": "https://github.com"
+    },
+    {
+        "title": "SoleDad 2",
+        "imageSrc": "assets/projects/projects.jpg",
+        "description": "SoleDad es una landing page para una pequeña tienda de ropa.",
+        "skills": ["HTML", "CSS", "JavaScript"],
+        "demo": "https://example.com/",
+        "source": "https://github.com"
+    },
+    {
+        "title": "SoleDad 3",
+        "imageSrc": "assets/projects/projects.jpg",
+        "description": "SoleDad es una landing page para una pequeña tienda de ropa.",
+        "skills": ["HTML", "CSS", "JavaScript"],
+        "demo": "https://example.com/",
+        "source": "https://github.com"
+    }
+]
