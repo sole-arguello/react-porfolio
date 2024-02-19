@@ -1,0 +1,92 @@
+.app{
+
+    .contact__container{
+
+        color: map-get($map: $colors, $key: color-text);
+        margin-top: 120px;
+        background-color: map-get($map: $colors, $key: color-secondary);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100vw;
+        padding: 58px 10%;
+        gap: 10px;
+
+        .contact__content{
+
+            .contact__content-title{
+                font-size: 80px;
+                font-weight: 700;
+                letter-spacing: 4px;
+            }
+
+            .contact__content-text{
+                font-size: 40px;
+                font-weight: 400;
+                letter-spacing: 2px;
+
+            }
+        }
+
+        .contact__content-links{
+
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            list-style: none;
+            gap: 26px;
+
+            .contact__content-links_item{
+
+                display: flex;
+                align-items: center;
+                gap: 25px;
+                .contact__content-icon{
+                    font-size: 35px;
+                }
+                .contact__content-links_item-link{
+                    color: map-get($map: $colors, $key: color-text);
+                    text-decoration: none;
+                    font-size: 30px;
+                    font-weight: 400;
+                    letter-spacing: 1.5px;
+                }
+
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width: 830px) {.app{
+
+    .contact__container{
+
+        flex-direction: column;
+        gap: 23px;
+
+        .contact__content{
+
+            .contact__content-title{}
+
+            .contact__content-text{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        .contact__content-links{
+            align-items: center;
+
+            .contact__content-links_item{
+                .contact__content-icon{}
+                .contact__content-links_item-link{}
+
+            }
+
+        }
+    }
+}
+    
+}
