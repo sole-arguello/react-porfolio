@@ -16,30 +16,48 @@ export default function Aboutme() {
 
           <li className="aboutme__content--info-list_item" >
 
-            <div className="aboutme__content--info-icons iconsFront">
-              <FaDesktop />
-              <FaMobileScreenButton />
+            <div className="aboutme__content--info-icons icons__descktop">
+              <FaDesktop  className="iconsFront"/>
+              <FaMobileScreenButton  className="iconsFront"/>
             </div>
 
             <div className="aboutme__content--info-text">
-              <h3 className="aboutme__content--info-text_title">FrontEnd Developer</h3>
+              <div className="aboutme__content--info-text_title">
+                <h3 className="aboutme__title">FrontEnd Developer</h3>
+                <div className="aboutme__content--info-icons incons__mobile ">
+                  <FaDesktop  className="iconsFront"/>
+                  <FaMobileScreenButton  className="iconsFront"/>
+                </div>
+              </div>
               <p className="aboutme__content--info-text_description">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Tenetur, exercitationem minima.</p>
+              Me destaco por crear experiencias de usuario atractivas y funcionales, 
+              utilizando tecnologías como React, HTML5, CSS3, Bootstrap y JavaScript. 
+              Mi enfoque se centra en el diseño intuitivo y la interactividad para 
+              garantizar una experiencia del usuario excepcional.</p>
             </div>
 
           </li>
-
+          
           <li className="aboutme__content--info-list_item" >
-           
-              <FaServer className="iconsBack"/>           
+
+            <div className="aboutme__content--info-icons icons__descktop">
+              <FaServer className="iconsBack"/> 
+            </div>
 
             <div className="aboutme__content--info-text">
-              <h3 className="aboutme__content--info-text_title">FrontEnd Developer</h3>
+              <div className="aboutme__content--info-text_title">
+                <h3 className="aboutme__title">BackEnd Developer</h3>
+                <div className="aboutme__content--info-icons incons__mobile ">
+                  <FaServer className="iconsBack"/> 
+                </div>
+              </div>
               <p className="aboutme__content--info-text_description">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Tenetur, exercitationem minima.</p>
+              Tengo experiencia sólida trabajando con tecnologías como Node.js, Express y 
+              MongoDB para desarrollar aplicaciones web dinámicas y eficientes. 
+              Mi enfoque pragmático se traduce en la implementación de soluciones 
+              robustas y escalables.</p>
             </div>
+
           </li>
 
         </ul>

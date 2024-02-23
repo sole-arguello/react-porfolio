@@ -6,10 +6,10 @@
         position: relative;
         background-color: rgba(12, 12, 12, 0.6);
         border-radius:  15px;
-        padding: 73px;
-        margin-top: 129px;
+        padding: 30px 60px;
+        //margin-top: 129px;
         z-index: 1;
-        margin: 10%;
+        margin: 10% 5% 5% 5%;
 
         .aboutme__content--titleImg{
             display: flex;
@@ -35,7 +35,7 @@
             align-items: center;
 
             .aboutme__content--info-img{
-                width: 80%;
+                width: 100%;
             }
             .aboutme__content--info-list{
                 
@@ -60,22 +60,34 @@
                     background-repeat: no-repeat;
                     transition: .5s;
 
-                    .aboutme__content--info-icons{ }
-                    .iconsFront{ 
-                        margin-right: 5%;
-                        font-size: 45px;
-                        color: rgb(124, 185, 235);
+                    .icons__descktop{
+                        display: block;
                     }
-                    .iconsBack{
+                    .aboutme__content--info-icons{
                         margin-right: 5%;
-                        font-size: 100px;
-                        color: rgb(124, 185, 235);
-                    }
+
+                        .iconsFront{ 
+                            font-size: 45px;
+                            color: rgb(124, 185, 235);
+                        }
+                        .iconsBack{
+                            font-size: 45px;
+                            color: rgb(124, 185, 235);
+                        }
+                     }
+
+                
+
                     .aboutme__content--info-text{
                         font-size: 25px;
                         .aboutme__content--info-text_title{
-                            margin-bottom: 2%;
-                            font-weight: 600;
+                               .aboutme__title{
+                                    margin-bottom: 2%;
+                                    font-weight: 600;
+                                }
+                                .incons__mobile{
+                                    display: none;
+                                }
                         }
                         .aboutme__content--info-text_description{}
                     }
@@ -95,7 +107,7 @@
     .app {
 
         .aboutme__container{
-    
+            margin-top: 0;
              background-color: transparent;
              padding: 73px 0;
     
@@ -121,15 +133,30 @@
                         
                         margin-left: 0;
                         margin-right: 0;
-    
-                        .aboutme__content--info-icons{}
+                        .icons__descktop{
+                            display: none;
+                        }
+                        .aboutme__content--info-icons{
+                            .iconsFront{
+                                font-size: 23px;
+                            }
+                            .iconsBack{
+                                font-size: 23px;
+                            }
 
-                        .iconsFront{}
-                        .iconsBack{}
-
-                        .aboutme__content--info-text {
-                            .aboutme__content--info-text_title{}
-                            .aboutme__content--info-text_description{ }
+                        }
+                        
+                        .aboutme__content--info-text{
+                            .aboutme__content--info-text_title{
+                                display: flex;
+                                gap: 20px;
+                                align-items: center;
+                                .aboutme__title{}
+                                    .incons__mobile{
+                                        display: block;
+                                    }
+                            }
+                            .aboutme__content--info-text_description{}
                         }
                     }
     
