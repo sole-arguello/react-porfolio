@@ -10,12 +10,12 @@
         justify-content: space-evenly;
         width: 100vw;
         padding: 58px 10%;
-        gap: 10px;
+        gap: 80px;
 
         .contact__content{
 
             .contact__content-title{
-                font-size: 80px;
+                font-size: 60px;
                 font-weight: 700;
                 letter-spacing: 4px;
             }
@@ -67,7 +67,9 @@
 
         .contact__content{
 
-            .contact__content-title{}
+            .contact__content-title{
+                font-size: 50px;
+            }
 
             .contact__content-text{
                 display: flex;
@@ -81,7 +83,9 @@
 
             .contact__content-links_item{
                 .contact__content-icon{}
-                .contact__content-links_item-link{}
+                .contact__content-links_item-link{
+                    font-size: 18px;
+                }
 
             }
 

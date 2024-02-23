@@ -9,7 +9,7 @@ export default function Hero() {
                 <h1 className="content__hero--title">Hola, soy Soledad</h1>
                 <div className="content__hero--description">
                 <p >Soy desarrolladora FullStack con 2 años de experiencia 
-                    usando React y NodeJs.</p>
+                    trabajando con React.js y Node.Js - Express.</p>
                 <p>¡Comunícate con migo, si quieres saber más de mi! </p>
                 </div>
                 <a className="content__hero--btnContact" href="mailto:soledad.arguello.trabajo@gmail.com">Contactame</a>

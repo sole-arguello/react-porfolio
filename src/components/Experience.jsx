@@ -31,8 +31,8 @@ export default function Experience() {
                     <div className='history_item-details'>
                         <h3 className='history_item-details--title'>{`${historyItem.role}, 
                         ${historyItem.company}`}</h3>
-                        <p className='history_item-details--date'>{historyItem.startDate} 
-                        - {historyItem.endDate}</p>
+                        <p className='history_item-details--date'>{`${historyItem.startDate} 
+                         - ${historyItem.endDate}`}</p>
                         <ul className='history_item-details--experences'>
                           {historyItem.experences.map((experence, id) => 
                             {return (
