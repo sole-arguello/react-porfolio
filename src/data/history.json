@@ -1,26 +1,26 @@
 [
     {
-        "role": "Frontend Developer",
-        "company": "Company SoleDad",
-        "startDate": "Sept, 2021",
+        "role": "Full Stack Developer",
+        "company": "Freelance",
+        "startDate": "Noviembre, 2023",
         "endDate": "Present",
-        "experences": [" una cosa", "otra cosa ", "y otra mas"],
-        "imageSrc": "assets/about/aboutme.png"
+        "experences": ["React.js", "Node.js", "Express", "MongoDB"],
+        "imageSrc": "assets/historys/nailsLuly.jpeg"
     },
     {
         "role": "Frontend Developer",
-        "company": "Company SoleDad",
-        "startDate": "Sept, 2021",
-        "endDate": "Present",
-        "experences": [" una cosa", "otra cosa ", "y otra mas"],
-        "imageSrc": "assets/about/aboutme.png"
+        "company": "Freelance",
+        "startDate": "Marzo, 2022",
+        "endDate": "Abril, 2022",
+        "experences": ["Html5", "Css3", "SCSS", "Bootstrap"],
+        "imageSrc": "assets/historys/luly.png"
     },
     {
         "role": "Frontend Developer",
-        "company": "Company SoleDad",
-        "startDate": "Sept, 2021",
-        "endDate": "Present",
-        "experences": [" una cosa", "otra cosa ", "y otra mas"],
-        "imageSrc": "assets/about/aboutme.png"
+        "company": "Freelance",
+        "startDate": "Junio, 2022",
+        "endDate": "Julio, 2022",
+        "experences": ["React.js", "JavaScript", "Html5", "SCSS", "Bootstrap"],
+        "imageSrc": "assets/historys/alaCachufleta.jpg"
     }
 ]

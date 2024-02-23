@@ -1,26 +1,34 @@
 [
     {
-        "title": "SoleDad 1",
-        "imageSrc": "assets/projects/projects.jpg",
-        "description": "SoleDad es una landing page para una pequeña tienda de ropa.",
-        "skills": ["HTML", "CSS", "JavaScript"],
-        "demo": "https://example.com/",
-        "source": "https://github.com"
+        "title": "Aplicacion de Turnos",
+        "imageSrc": "assets/projects/nailsLuly.png",
+        "description": "Es un sitio Web del salon de uñas Nalis Luly y API para poder gestionar los turnos de los clientes",
+        "skills": ["Node - Express", "MongoDB", "React.js", "Bootstrap", "SCSS"],
+        "demo": "https://nailsluly-react.onrender.com/",
+        "source": "https://github.com/sole-arguello/api-lulyNails"
     },
     {
-        "title": "SoleDad 2",
-        "imageSrc": "assets/projects/projects.jpg",
-        "description": "SoleDad es una landing page para una pequeña tienda de ropa.",
-        "skills": ["HTML", "CSS", "JavaScript"],
-        "demo": "https://example.com/",
-        "source": "https://github.com"
+        "title": "AlaCachufleta Ecommerce",
+        "imageSrc": "assets/projects/alaCachufleta.png",
+        "description": "Es una ecommerce, para una pequeña tienda de ropa.",
+        "skills": ["React.js", "JavaScript", "Bootstrap", "SCSS"],
+        "demo": "https://alacahufleta.netlify.app",
+        "source": "https://github.com/sole-arguello/PF-React-ArguelloMariaSoledad"
     },
     {
-        "title": "SoleDad 3",
-        "imageSrc": "assets/projects/projects.jpg",
-        "description": "SoleDad es una landing page para una pequeña tienda de ropa.",
-        "skills": ["HTML", "CSS", "JavaScript"],
-        "demo": "https://example.com/",
-        "source": "https://github.com"
+        "title": "Incubadora NOC",
+        "imageSrc": "assets/projects/incubadora.jpg",
+        "description": "Sitio Web, desarrollado en equipo con otros desarrolladores, para una plataforma de cursos",
+        "skills": ["Angular", "TypeScript", "Material UI", "SCSS"],
+        "demo": "https://github.com/The-Undefined-Santex/The_Undefined",
+        "source": "https://github.com/The-Undefined-Santex/The_Undefined"
+    },
+    {
+        "title": "Portafolio Web",
+        "imageSrc": "assets/projects/portfolio.png",
+        "description": "Sitio Web, donde muestra mis habilidades y proyectos",
+        "skills": ["React.js", "SCSS"],
+        "demo": "https://porfolioweb-react.onrender.com/",
+        "source": "https://github.com/sole-arguello/react-porfolio"
     }
 ]
