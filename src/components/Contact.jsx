@@ -1,6 +1,8 @@
 import { FaGithub, FaInvision, FaRegEnvelope  } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 export default function Contact() {
+
   return (
     <footer className='contact__container' id='contact'>
 
@@ -12,7 +14,8 @@ export default function Contact() {
         <ul className='contact__content-links'>
             <li className='contact__content-links_item'>
                 <FaRegEnvelope className="contact__content-icon"/>
-                <a className='contact__content-links_item-link' href="mailito:soledad.arguello.trabajo@gmail.com">soledad.arguello.trabajo@gmail.com</a>
+                <Link to={'/emailForm'} >soledad.arguello.trabajo@gmail.com</Link>
+                {/* <a className='contact__content-links_item-link' href="mailto:soledad.arguello.trabajo@gmail.com" >soledad.arguello.trabajo@gmail.com</a> */}
             </li>
             <li className='contact__content-links_item'>
                 <FaInvision className="contact__content-icon"/>
