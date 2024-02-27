@@ -1,0 +1,99 @@
+.app {
+
+    .content__emailForm{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: map-get($map: $colors, $key: color-text );
+        .content__emailForm-container{
+
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            .content__emailForm-form{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                background-color: rgba(12, 12, 12, 0.6);
+                box-shadow: 0 0 40px 0 rgba(99, 98, 98, 0.25);
+                border-radius:  15px;
+                padding: 30px;
+                .content__emailForm-label{
+    
+    
+                }
+                .content__emailForm-input{
+                    margin-bottom: 10px;
+                    padding: 10px;
+                }
+        
+                .content__emailForm-textarea{
+                    max-width: 100%;
+                    min-width: 100%;
+                    resize: none;
+                }
+    
+                .content__emailForm-btn-container{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    margin-top: 20px;
+                    .btn-link{
+                        text-decoration: none;
+            
+                    }
+                   
+                    .content__emailForm-btn{
+                        padding: 10px 20px;
+                        cursor: pointer;
+                        font-size: 20px;
+                        font-weight: 600;
+                        color: map-get($map: $colors, $key: color-text);
+                        background-color: map-get($map: $colors, $key: color-primary);
+                        border-radius: 100px;
+                        border: none;
+                        box-shadow: 0 0 40px 0 rgba(173, 168, 168, 0.25);
+                    }
+                }
+    
+            }
+        }
+        
+
+
+        .content__emailForm-success{
+            width: 50%;
+            color: map-get($map: $colors, $key: color-text );
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            background-color: rgba(12, 12, 12, 0.6);
+            box-shadow: 0 0 40px 0 rgba(99, 98, 98, 0.25);
+            border-radius:  15px;
+            padding: 30px;
+            .content__emailForm-success-title{
+                font-size: 2rem;
+            }
+            .content__emailForm-btn{
+                
+                text-decoration: none;
+                padding: 10px;
+                cursor: pointer;
+                font-size: 20px;
+                font-weight: 600;
+                color: map-get($map: $colors, $key: color-text);
+                background-color: map-get($map: $colors, $key: color-primary);
+                border-radius: 100px;
+                box-shadow: 0 0 40px 0 rgba(173, 168, 168, 0.25);
+            }
+            
+        }
+
+
+    }
+}
