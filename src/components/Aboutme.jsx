@@ -6,11 +6,11 @@ export default function Aboutme() {
       
       <div className="aboutme__content--titleImg">
         <h2 className="aboutme__content--title"> Sobre mi </h2>
-        <img className="aboutme__content--img" src="/assets/about/aboutme.png" alt="" />
+        <img className="aboutme__content--img" src="/assets/about/aboutme.png" alt="imagen sobre mi" />
       </div>
 
       <div className="aboutme__content--info">
-        <img className="aboutme__content--info-img" src="/assets/about/about.png" alt="imagen se mi" />
+        <img className="aboutme__content--info-img" src="/assets/about/about.png" alt="imagen perfil" />
         
         <ul className="aboutme__content--info-list">
 
