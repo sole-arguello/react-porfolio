@@ -23,22 +23,22 @@ export default function Navbar() {
         <ul className={`navbar__menu--items ${menuOpen ? "open" : ""}`}>
           <li className="navbar__menu--item-list">
             <HashLink className="navbar__menu--item-list_link" to="#about">
-              About
+              Sobre Mi
             </HashLink>
           </li>
           <li className="navbar__menu--item-list">
             <HashLink className="navbar__menu--item-list_link" to="#experience">
-              Experience
+              Experiencia
             </HashLink>
           </li>
           <li className="navbar__menu--item-list">
             <HashLink className="navbar__menu--item-list_link" to="#projects">
-              Projects
+              Projectos
             </HashLink>
           </li>
           <li className="navbar__menu--item-list">
             <HashLink className="navbar__menu--item-list_link" to="#contact">
-              Contact
+              Contacto
             </HashLink>
           </li>
         </ul>
