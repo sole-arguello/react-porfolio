@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { getImageUrl } from "../utils";
 export default function Hero() {
   return (
     <section className="container__hero">
@@ -14,7 +13,7 @@ export default function Hero() {
             Contactame
           </Link>
         </div>
-        <img className="image__hero" src="/assets/about/hero.jpeg" alt="mi imagen" />
+        <img className="image__hero" src="/assets/about/hero.jpeg" alt="imagen personal" />
         {/* <img className="image__hero" src={getImageUrl('/assets/about/yo.jpeg')} alt="mi imagen" /> */}
         <div className="topBlur__hero" />
         <div className="bottomBlur__hero" />
