@@ -14,16 +14,15 @@ export default function Contact() {
         <ul className='contact__content-links'>
             <li className='contact__content-links_item'>
                 <FaRegEnvelope className="contact__content-icon"/>
-                <Link to={'/emailForm'} >soledad.arguello.trabajo@gmail.com</Link>
-                {/* <a className='contact__content-links_item-link' href="mailto:soledad.arguello.trabajo@gmail.com" >soledad.arguello.trabajo@gmail.com</a> */}
+                <Link className="contact__content-links_item-link" to={'/emailForm'} >soledad.arguello.trabajo@gmail.com</Link>
             </li>
             <li className='contact__content-links_item'>
                 <FaInvision className="contact__content-icon"/>
-                <a className='contact__content-links_item-link' href="https://www.linkedin.com/in/soledad-arguello/">Linkedin.com</a>
+                <Link className='contact__content-links_item-link' target="_blank" to='https://www.linkedin.com/in/soledad-arguello/'>Linkedin.com</Link>
             </li>
             <li className='contact__content-links_item'>
                 <FaGithub className="contact__content-icon"/>
-                <a className='contact__content-links_item-link' href="https://github.com/sole-arguello">Github.com</a>
+                <Link className='contact__content-links_item-link' target="_blank" to="https://github.com/sole-arguello">Github.com</Link>
             </li>
             
         </ul>
