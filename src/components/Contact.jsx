@@ -14,7 +14,7 @@ export default function Contact() {
         <ul className='contact__content-links'>
             <li className='contact__content-links_item'>
                 <FaRegEnvelope className="contact__content-icon"/>
-                <Link className="contact__content-links_item-link" to={'/emailForm'} >soledad.arguello.trabajo@gmail.com</Link>
+                <Link className="contact__content-links_item-link" to={'/emailForm'}>soledad.arguello.trabajo@gmail.com</Link>
             </li>
             <li className='contact__content-links_item'>
                 <FaInvision className="contact__content-icon"/>
